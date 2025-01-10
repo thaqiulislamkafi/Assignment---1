@@ -30,4 +30,51 @@
   border-radius: 8px;
 }
 
+/* ........banner...... */
+
+.banner{
+
+  margin: 40px 125px 80px 125px;
+  padding: 70px 50px 70px 50px;
+  background-color: #C6E4D6;
+  border-radius: 24px ;
+  border-style: none;
+}
+
+.text {
+  margin-top: 30px;
+}
+
+.text p {
+  font-family: "Fira Sans", serif;
+  color: #0e0e0e7e ;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.text h2 {
+  margin-top: 0;
+  font-family: "Fira Sans", serif;
+  color: #0E0E0E ;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: auto;
+  max-width: 90%;
+}
+
+.text button {
+  font-family: "Fira Sans", serif;
+  color: white;
+  font-weight: 600px;
+  font-size: 16px;
+  background-color: #006A50;
+  border-radius: 8px;
+  padding: 15px 30px;
+  border-style: none;
+}
+
+.banner-items-container{
+  display: flex;
+  justify-content: space-between;
+}
 
