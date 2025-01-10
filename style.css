@@ -83,7 +83,7 @@
 
 
 .pillers{
-  margin: 10px 125px 80px 125px;
+  margin: 10px 125px 70px 125px;
 }
 
 .pillers h3{
@@ -112,4 +112,106 @@
   font-size: 16px;
   margin: 18px 0 0 0 ;
   color: #0e0e0ec4;
+}
+
+/* .... "The vision of Future" section updating....... */
+
+
+.visions{
+  margin: 10px 125px 30px 125px;
+}
+
+.visions h3 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #0E0E0E;
+}
+
+.visions p {
+  font-weight: normal;
+  font-size: 14px;
+  color: #0e0e0eab;
+}
+
+.visions-container{
+  display: flex;
+  gap: 20px;
+}
+
+.digital-transformation  {
+  background-color: #548ff534;
+  padding: 28px;
+  width: 380px;
+  border-radius: 15px;
+  border-style: none;
+}
+
+.green-energy{
+  background-color: #C6E4D6;
+  padding: 28px;
+  width: 380px;
+  border-radius: 15px;
+  border-style: none;
+
+}
+
+.modern-infrastructure {
+  background-color: #F7EBCF;
+  padding: 28px;
+  width: 380px;
+  border-radius: 15px;
+  border-style: none;
+
+}
+
+.visions h3 {
+  margin-bottom: 20px;
+}
+
+.visions-description {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.visions-container h5 {
+  font-weight: bold;
+  font-size: 17px;
+  color: #0e0e0ecc;
+  margin-bottom: 0;
+  margin-top: 21px;
+}
+
+.digital-transformation button {
+
+  padding: 9px 16px;
+  color: white;
+  background-color: #5490F5;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 6px;
+  border-style: none;
+}
+
+.green-energy button {
+
+  padding: 9px 16px;
+  color: white;
+  background-color: #09A15C;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 6px;
+  border-style: none;
+  margin-top: 15px;
+}
+
+.modern-infrastructure button {
+
+  padding: 9px 16px;
+  color: white;
+  background-color: #FFC239;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 6px;
+  border-style: none;
 }
