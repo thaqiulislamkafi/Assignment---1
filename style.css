@@ -34,7 +34,7 @@
 
 .banner{
 
-  margin: 40px 125px 80px 125px;
+  margin: 30px 125px 80px 125px;
   padding: 70px 50px 70px 50px;
   background-color: #C6E4D6;
   border-radius: 24px ;
@@ -78,3 +78,38 @@
   justify-content: space-between;
 }
 
+
+/* ........."Piller of bangladesh" section updating...... */
+
+
+.pillers{
+  margin: 10px 125px 80px 125px;
+}
+
+.pillers h3{
+  font-size: 35px;
+}
+
+.pillers-container{
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+}
+
+.sustainability, .innovation, .infrustructure, .empowerment {
+  background-color: #FFFFFF;
+  padding: 22px;
+  border-radius: 15px;
+  font-family: "Fira Sans", serif;
+  color: #0e0e0eab ;
+  font-size: 15px;
+  border: 2px solid #0e0e0e15;
+}
+
+.pillers-container h6{
+  font-family: "Fira Sans", serif;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 18px 0 0 0 ;
+  color: #0e0e0ec4;
+}
