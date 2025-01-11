@@ -1,4 +1,5 @@
 
+
 .fira-sans-regular {
     font-family: "Fira Sans", serif;
     font-weight: 400;
@@ -28,9 +29,16 @@
   font-weight: 600;
   border: 2px solid #006A50;
   border-radius: 8px;
+  cursor: pointer;
 }
 
-/* ........banner...... */
+.btn:hover{
+  background-color: #033024;
+  color: white;
+  opacity: 0.9;
+}
+
+/* ........banner Updating...... */
 
 .banner{
 
@@ -71,7 +79,14 @@
   border-radius: 8px;
   padding: 15px 30px;
   border-style: none;
+  cursor: pointer;
 }
+
+.text button:hover{
+  background-color: #013629;
+  opacity: 0.9;
+}
+
 
 .banner-items-container{
   display: flex;
@@ -191,6 +206,12 @@
   font-size: 14px;
   border-radius: 6px;
   border-style: none;
+  cursor: pointer;
+}
+
+.digital-transformation button:hover{
+  background-color: #315594;
+  opacity: 0.9;
 }
 
 .green-energy button {
@@ -203,6 +224,12 @@
   border-radius: 6px;
   border-style: none;
   margin-top: 15px;
+  cursor: pointer;
+}
+
+.green-energy button:hover{
+  background-color: #053d24;
+  opacity: 0.9;
 }
 
 .modern-infrastructure button {
@@ -214,6 +241,13 @@
   font-size: 14px;
   border-radius: 6px;
   border-style: none;
+  cursor: pointer;
+}
+
+.modern-infrastructure button:hover{
+
+  background-color: #704f03;;
+  opacity: 0.9;
 }
 
 .chief-adviser{
@@ -256,6 +290,7 @@
   font-size: 35px;
   font-weight: bold;
   margin-bottom: 20px;
+  text-align: left;
 }
 .Recent-news p {
   font-family: "Fira Sans", serif;
@@ -276,6 +311,16 @@
   gap: 30px;   
 
 }
+
+.box-container button{
+  cursor: pointer;
+}
+
+.box-container button:hover{
+  background-color: #023a2c;
+  opacity: 0.9;
+}
+
 
 .box-container h4 {
   font-family: "Fira Sans", serif;
@@ -349,7 +394,13 @@
   border-radius: 15px;
   border: 1px solid #0e0e0e25;
   background-color: #FFFFFF;
+  cursor: pointer;
+}
 
+.amount button:hover{
+  background-color: #023a2c;
+  opacity: 0.9;
+  color: white;
 }
 
 .color-amount button{
@@ -360,7 +411,15 @@
   border-radius: 15px;
   border: 1px solid #0e0e0e25;
   background-color: #C6E4D6;
+  cursor: pointer;
 }
+
+.color-amount button:hover{
+  background-color: #023a2c;
+  opacity: 0.9;
+  color: white;
+}
+
 
 .donate input {
   font-family: "Fira Sans", serif;
@@ -384,6 +443,12 @@
   border-style: none;
   background-color: #006A50;
   padding: 15px 32px;
+  cursor: pointer;
+}
+
+.btn-donate:hover{
+  background-color: #023a2c;
+  opacity: 0.9;
 }
 
 /* .... "Subscribe Newsletter" section updating....... */
@@ -443,5 +508,42 @@
   background-color: #006A50;
   border-style: none;
   border-radius: 0 6px 6px 0 ;
+  cursor: pointer;
 
+}
+
+.subscribe-button button:hover {
+
+  background-color: #023a2c;
+  opacity: 0.9;
+
+}
+
+/* .... "Footer section" section updating....... */
+
+footer{
+  background-color: white;
+  padding: 50px 230px;
+  margin-left: 0;
+
+  
+}
+
+.footer-section{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-section h4{
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.icons{
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
