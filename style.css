@@ -217,6 +217,7 @@
 }
 
 .chief-adviser{
+  font-family: "Fira Sans", serif;
   border-radius: 15px;
   border-style: none ;
   padding: 45px 24px;
@@ -233,6 +234,7 @@
 }
 
 .chief-adviser h6 {
+  font-family: "Fira Sans", serif;
   font-weight: bold;
   font-size: 20px;
   color: #0e0e0ecc;
@@ -250,16 +252,19 @@
 }
 
 .Recent-news h2{
+  font-family: "Fira Sans", serif;
   font-size: 35px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 .Recent-news p {
+  font-family: "Fira Sans", serif;
   font-size: 14px;
   color: #0e0e0eb2;
 }
 
 .box-container {
+  font-family: "Fira Sans", serif;
   margin-top: 30px;
   padding: 42px 44px;   
   background-color: #FFFFFF;
@@ -273,6 +278,7 @@
 }
 
 .box-container h4 {
+  font-family: "Fira Sans", serif;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 15px;
@@ -291,8 +297,91 @@
 }
 
 .text p {
+  font-family: "Fira Sans", serif;
   font-size: 14px;
   font-weight: normal;
   line-height: 20px;
 }
 
+/* .... "Donate Section" section updating....... */
+
+.donate{
+  font-family: "Fira Sans", serif;
+  margin: 70px 125px 30px 125px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.donate h3 {
+  font-family: "Fira Sans", serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.donate p {
+  font-family: "Fira Sans", serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 22px;
+  text-align: center;
+  width: 97.9%;
+}
+
+.amount-container{
+  font-family: "Fira Sans", serif;
+  margin: 20px 0 ;
+  display: flex ;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.amount button{
+  font-family: "Fira Sans", serif;
+  padding: 33px;
+  font-size: 36px;
+  font-weight: bold;
+  border-radius: 15px;
+  border: 1px solid #0e0e0e25;
+  background-color: #FFFFFF;
+
+}
+
+.color-amount button{
+  font-family: "Fira Sans", serif;
+  padding: 33px;
+  font-size: 36px;
+  font-weight: bold;
+  border-radius: 15px;
+  border: 1px solid #0e0e0e25;
+  background-color: #C6E4D6;
+}
+
+.donate input {
+  font-family: "Fira Sans", serif;
+  width: 78%;
+  padding: 18px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  font-size: 16px;
+}
+
+.btn-donate {
+  font-family: "Fira Sans", serif;
+  margin: 30px;
+  font-size: 16px;
+  color: white;
+  font-weight: 800px;
+  border-radius: 8px;
+  border-style: none;
+  background-color: #006A50;
+  padding: 15px 32px;
+}
