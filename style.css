@@ -56,11 +56,12 @@
   margin-top: 30px;
 }
 
-.text p {
+.bd{
   font-family: "Fira Sans", serif;
   color: #0e0e0e7e ;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 20px;
+  margin-bottom: 13px;
 }
 
 .text h2 {
@@ -329,6 +330,7 @@
 
 .box-container button{
   cursor: pointer;
+  padding: 12px 23px;
 }
 
 .box-container button:hover{
@@ -571,7 +573,7 @@ footer{
 }
 
 .icons{
-  
+
   margin-top: 30px;
   display: flex;
   gap: 20px;
